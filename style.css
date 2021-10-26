@@ -1,0 +1,15 @@
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: -apple-system, 'SVN-Fiolex Girls Regular', 'HMP Jellyka Bees Antique Handwriting', 'Poppins', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    user-select: none;
+}
+
+div.center {
+    text-align: center;
+}
