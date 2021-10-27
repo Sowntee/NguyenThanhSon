@@ -21,6 +21,7 @@
 }
 
 #biet-danh {
+  font-size: 70px;
   font-family: "HMP Jellyka BeesAntique Hand";
   src: url(font/HMP\ Jellyka\ Bees\ Antique\ Handwriting.ttf);
 }
@@ -33,6 +34,13 @@
   height: 100%;
   place-items: center;
 }
+
+.text > b {
+  font-size: 50px;
+  text-align: center;
+  font-family: "HMP Jellyka BeesAntique Hand";
+}
+
 .skill-bars {
   padding: 20px 30px;
   width: 320px;
@@ -44,11 +52,9 @@
 .skill-bars .bar {
   margin: 20px 0;
 }
-.skill-bars .bar:first-child {
-  margin-top: 0px;
-}
+
 .skill-bars .bar .info {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .skill-bars .bar .info span {
   font-weight: 500;
