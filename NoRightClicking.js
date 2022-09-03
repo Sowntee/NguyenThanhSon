@@ -1,14 +1,14 @@
 var message = "NoRightClicking";
 function defeatIE() {
   if (document.all) {
-    (message);
+    message;
     return false;
   }
 }
 function defeatNS(e) {
   if (document.layers || (document.getElementById && !document.all)) {
     if (e.which == 2 || e.which == 3) {
-      (message);
+      message;
       return false;
     }
   }
@@ -20,4 +20,4 @@ if (document.layers) {
   document.onmouseup = defeatNS;
   document.oncontextmenu = defeatIE;
 }
-document.oncontextmenu = new Function("return false")
+document.oncontextmenu = new Function("return false");
